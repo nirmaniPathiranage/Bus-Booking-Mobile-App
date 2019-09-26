@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bus Booking</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="language_prompt">Select the Language Preferred</string>
+
+    <array name="languages">
+        <item>Sinhala</item>
+        <item>English</item>
+        <item>Tamil</item>
+    </array>
+
+</resources>

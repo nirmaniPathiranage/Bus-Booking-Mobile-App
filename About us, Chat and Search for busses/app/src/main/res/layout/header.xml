@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@drawable/trip"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="43dp"
+        android:layout_height="47dp"
+        android:contentDescription="Navigation header"
+        android:paddingTop="8dp"
+        app:srcCompat="@drawable/bb" />
+
+    <TextView
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:text="TechieBoom Travel partner"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="techieboom.travel@android.com"
+        android:textColor="@android:color/black"
+        android:textSize="7sp" />
+
+</LinearLayout>

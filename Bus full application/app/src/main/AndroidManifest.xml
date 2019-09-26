@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nilfars.uee.bus">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/booking"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".New_Journeys"></activity>
+        <activity android:name=".PayCredit" />
+        <activity android:name=".WaitingListBus" />
+        <activity android:name=".JourneySearchForm" />
+        <activity android:name=".SearchBusActivity" />
+        <activity android:name=".ChatViewActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".AboutBusActivity" />
+        <activity android:name=".OffersActivity" />
+        <activity android:name=".MissionActivity" />
+        <activity android:name=".VisionActivity" />
+        <activity android:name=".FeedRecycleView" />
+        <activity android:name=".BookingForm" />
+        <activity
+            android:name=".viewHistory"
+            android:label="Recent Feeds" />
+        <activity
+            android:name=".feed"
+            android:label="@string/title_activity_feed"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".contact"
+            android:label="@string/title_activity_contact"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".about"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".experience"
+            android:label="@string/title_activity_experience"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".stories"
+            android:label="@string/title_activity_stories"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".sidebar"
+            android:label="@string/title_activity_sidebar"
+            android:theme="@style/AppTheme.NoActionBar.SlidrActivityTheme" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

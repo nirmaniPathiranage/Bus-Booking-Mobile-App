@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#00468b</color>
+    <color name="colorPrimaryDark">#0305AC</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightGrey">#E6E0E0</color>
+    <color name="color1">#2D8BC7</color>
+    <color name="color2">#3A66BD</color>
+    <color name="color3">#68C8DF</color>
+    <color name="color4">#3D6ECD</color>
+    <color name="color5">#0B287F</color>
+    <color name="grey">#606161</color>
+    <color name="buscolor">#A3E2FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="feedcolor">#FEF3F9</color>
+    <color name="maincolor">#25A5BF</color>
+    <color name="delete">#F6413B</color>
+    <color name="submit">#3BF6A2</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="transparent">#00000000</color>
+    <color name="textColor">#6e6e6e</color>
+    <color name="black">#000000</color>
+    <color name="darkgray">#6c6c6c</color>
+    <color name="primaryColor">#795548</color>
+    <color name="primaryDarkColor">#5D4037</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#228B22</color>
+
+
+
+
+</resources>

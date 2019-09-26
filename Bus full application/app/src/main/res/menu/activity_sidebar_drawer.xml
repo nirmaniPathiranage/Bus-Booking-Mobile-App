@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Travel Categories">
+            <menu>
+                <item
+                    android:id="@+id/home"
+                    android:icon="@drawable/homebus"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/story"
+                    android:icon="@drawable/stor"
+                    android:title="Bus Stories" />
+                <item
+                    android:id="@+id/exp"
+                    android:icon="@drawable/expe"
+                    android:title="Experiences" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/infor"
+            android:title="About Us" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/mail"
+            android:title="Contact Us" />
+
+
+
+        <item
+            android:id="@+id/feed"
+            android:icon="@drawable/fedd"
+            android:title="Feedback" />
+    </group>
+
+
+
+</menu>
